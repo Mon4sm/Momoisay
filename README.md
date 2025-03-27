@@ -14,7 +14,15 @@
 ```bash
 git clone https://github.com/Mon4sm/Momoisay.git
 cd Momoisay
-sudo sh install.sh
+chmod +x ./install/linux.sh
+sudo ./install/linux.sh
+```
+### MacOS
+```bash
+git clone https://github.com/Mon4sm/Momoisay.git
+cd Momoisay
+chmod +x ./install/mac.sh
+sudo ./install/mac.sh
 ```
 ## Usage
 ```bash
@@ -27,8 +35,13 @@ momoisay <text>         # Simple Usage
 repo/
 ├── bin/ 
 │     └── linux/
-│            └── momoisay
+│     │     └── momoisay
+│     └── mac/
+│             └── momoisay
+├── install/
+│       ├── mac.sh
+│       └── linux.sh
+│
 ├── LICENSE
-├── README.md
-└── install.sh
+└── README.md
 ```
