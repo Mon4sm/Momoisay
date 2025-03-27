@@ -2,7 +2,7 @@
 *A CLI program written in C featuring talking Saiba Momoi from Blue Archive!!!*
 
 [![License](https://img.shields.io/badge/license-MIT-blue)]()
-[![Version](https://img.shields.io/badge/version-1.0.0--beta.1-green)]()
+[![Version](https://img.shields.io/badge/version-1.0.1--beta.1-green)]()
 
 ---
 
