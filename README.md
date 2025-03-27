@@ -19,7 +19,7 @@ sudo sh install.sh
 ## Usage
 ```bash
 momoisay --help          # Show help
-momoisay <text>          # Simple Usage
+momoisay <text>         # Simple Usage
 ```
 
 ## File Structure
@@ -29,5 +29,6 @@ repo/
 │     └── linux/
 │            └── momoisay
 ├── LICENSE
-└── README.md
+├── README.md
+└── install.sh
 ```
